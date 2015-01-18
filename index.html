@@ -1,1 +1,291 @@
-Hello World
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>CANtact - The Open-Source Car Tool</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body data-spy="scroll">
+    
+    <!---//Facebook button code-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">CANtact</span>
+                </a>
+            </h1><!--//logo-->              
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->            
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#get">Get
+                        One</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#license">License</a></li>
+                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+    
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header">
+        <div class="container text-center">
+            <h2 class="title"><span class="highlight">CAN</span>tact</h2>
+            <p class="intro">The Open Source Car Tool</p>
+            <ul class="meta list-inline">
+                <li>A project by <a href="http://evenchick.com/" target="_blank">Eric Evenchick</a></li>
+                <li><a href="http://github.com/ericevenchick/cantact" target="_blank">View on GitHub</a></li>
+            </ul><!--//meta-->
+            <br><br><br>
+        </div><!--//container-->
+        <div class="social-media">
+            <div class="social-media-inner container text-center">
+                <ul class="list-inline">
+                  <li class="twitter-tweet">
+                        <a href="https://twitter.com/share"
+                        class="twitter-share-button" data-via="cantactio">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li><!--//twitter-tweet-->
+                    <li class="github-follow"><iframe
+                    src="http://ghbtns.com/github-btn.html?user=cantact&type=follow&count=false"
+  allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
+                </ul>
+            </div>
+        </div>
+    </section><!--//promo-->
+    
+    <!-- ******ABOUT****** -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="title text-center">About CANtact</h2>
+            <p class="intro text-center">CANtact is an open source Controller Area Network
+            (CAN) to USB interface for your computer.</p>
+            <div class="row">
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Connect to Cars</h3>
+                        <p>Connect to any CAN enabled car using a standard
+                        OBD-II cable.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Low Cost</h3>
+                        <p>CANtact is a low cost device, and allows you to use
+                        cheap cabling to interface with various connectors.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-github"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Open Source</h3>
+                        <p>A truely open source hardware project. All design
+                        files are available under a permissive license</p>
+                    </div><!--//content-->
+                </div><!--//item-->           
+                <div class="clearfix visible-md"></div>    
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-laptop"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Cross Platform</h3>
+                        <p>Works on Mac, Linux, and Windows</p>
+                    </div><!--//content-->
+                </div><!--//item-->                
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Designed for Hacking</h3>
+                        <p>Easily scriptable using the open-source CANard
+                        Python library.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-support"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Support</h3>
+                        <p>Community and commerical support available.</p>
+                    </div><!--//content-->
+                </div><!--//item-->               
+            </div><!--//row-->            
+        </div><!--//container-->
+    </section><!--//about-->
+    
+    <!-- ******get****** --> 
+    <section id="get" class="get section">
+        <div class="container text-center">
+            <h2 class="title">Get One</h2>
+              <div class="col-md-4 col-md-offset-4">
+                <p>CANtact is still in beta. If you'd like to get a beta unit, or
+                want to be notified when devices are ready</p>
+                <br>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                  <form action="http://cantact.us6.list-manage.com/subscribe/post?u=40e531b2c0355d79f650404eb&amp;id=03c0ee7c27" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="color: black;">
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;">
+                        <input type="text" name="b_40e531b2c0355d79f650404eb_03c0ee7c27" tabindex="-1" value="">
+                      </div>
+                      <div class="clear" style="margin-top:10px;">
+                        <input type="submit" value="Join the Beta List" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success"></div>
+                      </div>
+                  </form>
+                </div>
+<!--End mc_embed_signup-->
+                <br>
+                <p>We'll also ship bare boards out to people on our list when we
+                have extras.</p>
+                <p>Alternatively, you can check out the <a
+                href="https://github.com/CANtact/cantact-hw" target="_blank">
+                hardware repository</a> and build your own.</p>
+              </div>
+        </div><!--//container-->
+    </section><!--//get-->
+
+     <!-- ******LICENSE****** --> 
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+            <h2 class="title text-center">License</h2>
+                <div class="info">
+                    <p>CANtact is released under licenses that comply with the
+                    <a href="http://www.oshwa.org/definition/" target="_blank">
+                    Open Source Hardware Definition</a></p>
+                    <p>Hardware design is released under the <a
+                    href="http://creativecommons.org/licenses/by-sa/4.0/"
+                    target="_blank">Attribution-ShareAlike 4.0 International</a>
+                    license.</p>
+                    <p>Firmware is released under the <a
+                    href="http://opensource.org/licenses/MIT" target="_blank">
+                    MIT License</a>.</p>
+                </div><!--//info-->
+                    </div><!--//btn-container-->
+                </div><!--//cta-container-->
+            </div><!--//license-inner-->
+        </div><!--//container-->
+    </section><!--//how-->
+    
+    <!-- ******CONTACT****** --> 
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Contact</h2>
+                <p class="intro  text-center">Feel free to get in touch if you have any questions or suggestions.</p>
+                <div class="author-message">
+                    <div class="profile">
+                        <img class="img-responsive"
+                        src="assets/images/headshot.jpg" alt="" />
+                    </div><!--//profile-->
+                    <div class="speech-bubble">
+                        <h3 class="sub-title">About Me</h3>
+                        <p>I develop hardware, firmware, and software for all
+                        sorts of applications. Recently, I've been working with
+                        Bluetooth Low Energy, battery management systems,
+                        Controller Area Network, and automotive systems.</p>
+                        <p>I also offer consulting services and training on
+                        Controller Area Network and CANtact</p>
+                        <p>If you'd like to work with me on a project, please
+                        get in touch.</p>
+                        <div class="source">
+                            <span class="name"><a
+                            href="http://evenchick.com" target="_blank">
+                            --Eric Evenchick</a></span>
+                        </div><!--//source-->
+                    </div><!--//speech-bubble-->
+                </div><!--//author-message-->
+                <div class="clearfix"></div>
+                <div class="info text-center">
+                    <h4 class="sub-title">Say Hi</h4>
+                    <ul class="social-icons list-inline">
+                        <li><a href="https://twitter.com/ericevenchick" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://ca.linkedin.com/in/ericevenchick"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="last"><a href="mailto:cantact@evenchick.com"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div><!--//info-->
+            </div><!--//contact-inner-->
+        </div><!--//container-->
+    </section><!--//contact-->  
+      
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+            <small class="copyright">A project by <a
+            href="http://evenchick.com">Eric Evenchick</a> - Theme by 
+            <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+     
+    <!-- Javascript -->          
+    <script type="text/javascript"
+    src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"></script><script
+    type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) {
+    L.start({"baseUrl":"mc.us6.list-manage.com","uuid":"40e531b2c0355d79f650404eb","lid":"03c0ee7c27"})
+    })</script>
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
+
